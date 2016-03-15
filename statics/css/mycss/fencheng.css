@@ -1,0 +1,152 @@
+.banner-01 {
+    background: rgba(0, 0, 0, 0) url("../../images/myimg/fencheng/banner-01.jpg") no-repeat fixed center 0;
+    position: relative;
+}
+.jumbotron {
+    padding-bottom: 0;
+    padding-top: 3em;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 2.14286;
+}
+.fc-img {
+    background-image: url("../../images/myimg/fencheng/fcimg.png");
+    background-position: 70% bottom;
+    background-repeat: no-repeat;
+    background-size: 30% auto;
+}
+.fc-indent a {
+    float: left;
+    margin: 10px;
+}
+.btn-xzpg {
+    background: rgba(0, 0, 0, 0) url("../../images/myimg/fencheng/ico.png") repeat scroll 0 -1px / 100% auto;
+    height: 63px;
+    width: 204px;
+}
+.btn-xzaz {
+    background: rgba(0, 0, 0, 0) url("../../images/myimg/fencheng/ico.png") repeat scroll 0 125px / 100% auto;
+    height: 63px;
+    width: 204px;
+}
+.btn-xzpg:hover,.btn-xzpg:focus,.btn-xzpg:active,.btn-xzpg.active,.open .dropdown-toggle.btn-xzpg{
+    background: rgba(0, 0, 0, 0) url("../../images/myimg/fencheng/ico.png") repeat scroll 0 -63px / 100% auto;
+}
+.btn-xzaz:hover,.btn-xzaz:focus,.btn-xzaz:active,.btn-xzaz.active,.open .dropdown-toggle.btn-xzaz{
+    background: rgba(0, 0, 0, 0) url("../../images/myimg/fencheng/ico.png") repeat scroll 0 -188px / 100% auto;
+}
+.top-40 {
+    margin-top: 40px;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
+    color: #999999;
+    font-weight: normal;
+    line-height: 0.3;
+}
+.fcxn{
+    background-color: #e4e8eb;
+    background-image: url("../../images/myimg/fencheng/bg-02.png");
+    background-position: 22% bottom;
+    background-repeat: no-repeat;
+    height: 389px;
+    margin-top: 60px;
+}
+.fc-img01 {
+    margin: 60px auto;
+}
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+.fc-js {
+    padding: 35px 0;
+}
+.fc-js h4 {
+    line-height: 50px;
+}
+.fccs {
+    background-color: #eff1f3;
+    margin-top: 80px;
+    padding: 40px 0;
+}
+.table {
+    border-bottom: 1px solid #d4dade;
+    border-right: 1px solid #d4dade;
+}
+.table td {
+    border-left: 1px solid #d4dade;
+    border-top: 1px solid #d4dade !important;
+}
+.footer {
+    background: #252525 none repeat scroll 0 0;
+    color: #999;
+    font-size: 14px;
+    padding: 20px 0;
+}
+.footer a {
+    color: #fff;
+    padding: 0 5px;
+}
+.footer-floor {
+    background: #1b1b1b none repeat scroll 0 0;
+    font-size: 12px;
+    padding: 10px 0;
+}
+#weibo, #weibo_hover, #weixin, #weixin_hover, #gotop {
+    background: rgba(0, 0, 0, 0) url("../../images/myimg/index/icon.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    height: 36px;
+    position: fixed;
+    right: 10px;
+    width: 36px;
+    z-index: 999;
+}
+#weibo {
+    background-position: -568px -249px;
+    bottom: 87px;
+}
+#weibo_hover {
+    background-position: -568px -126px;
+    bottom: 87px;
+}
+#weixin {
+    background-position: -568px -290px;
+    bottom: 51px;
+}
+#weixin_hover {
+    background-position: -568px -167px;
+    bottom: 51px;
+}
+#gotop{
+    background-position: -568px -331px;
+    bottom: 10px;
+}
+#gotop_hover {
+    background-position: -568px -208px;
+    bottom: 51px;
+}
+#weibo_img {
+    background: rgba(0, 0, 0, 0) url("../../images/myimg/index/icon.png") no-repeat scroll -291px -12px;
+    bottom: 36px;
+    cursor: pointer;
+    display: none;
+    height: 355px;
+    position: fixed;
+    right: 50px;
+    width: 270px;
+}
+#weixin_img {
+    background: rgba(0, 0, 0, 0) url("../../images/myimg/index/icon.png") no-repeat scroll -12px -12px;
+    bottom: 0;
+    cursor: pointer;
+    display: none;
+    height: 355px;
+    position: fixed;
+    right: 50px;
+    width: 270px;
+}
+
+#weibo_img, #weixin_img , #gotop {
+    display: none;
+}

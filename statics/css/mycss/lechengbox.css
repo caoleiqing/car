@@ -1,0 +1,172 @@
+
+
+/*banner*/
+.bannerline{
+	height: 543px;width: 1319px;padding: 0 15px;margin-bottom: 56px;
+}
+.bannerline a{
+	display: block;height: 543px;width: 1319px;
+}
+.bannerline img{
+	display: block;height: 543px;width: 1319px;
+}
+
+/*产品介绍1*/
+.message1{
+	height: 436px;width: 1140px;padding: 0 15px;margin-bottom: 56px;overflow: hidden;
+}
+.message1-left{
+	height: 369px;width: 635px;padding: 0 15px;float: left;
+	position: relative;left: 100px;top: 0;
+}
+.message1-left-word{
+	height: 193px;width: 635px;margin: 56px 0;
+}
+.message1-left-word h2{
+	color: #333;font-size: 30px;border-left: 2px solid #61B623;padding-left: 30px;margin: 120px 0 10px 0;
+}
+.message1-left-word h5{
+	font-size: 16px;line-height: 32px;margin: 32px 0 10px 0;padding-left: 32px;
+}
+.message1-right{
+	height: 324px;width: 445px;margin: 56px 0;padding: 0 15px;float: right;
+	position: relative;left: 40px;top: 0;
+}
+
+.message1-right img{
+	height: 324px;width: 445px;
+}
+
+/*分割线hr*/
+hr{
+	margin-top: 20px;margin-bottom: 20px;border-width: 1px 0 0;border-color: #eee;height: 0;opacity: 0.3;
+}
+
+/*产品介绍2*/
+.message2{
+	height: 682px;width: 1140px;padding: 0 15px;margin:auto;margin-top: 56px;margin-bottom: 56px;
+}
+.message2 h2{
+	color: #333;font-size: 30px;text-align: center;
+	position: relative;top: 40px;left: 0;
+}
+.message2 img{
+	display: block;height: 559px;width: 808px;margin: 0 auto;margin-top: 56px;
+	position: relative;top: 40px;left: 0;
+}
+
+/*产品介绍3*/
+.message3{
+	height: 480px;width: 1170px;padding: 56px 0;
+}
+.message3-left{
+	height: 355px;width: 555px;padding: 0 15px;float: left;
+	position: relative;left: 120px;top: 0;
+}
+.message3-left h2{
+	color: #333;font-size: 30px;border-left: 2px solid #61B623;padding-left: 30px;margin: 120px 0 10px 0;
+}
+.message3-left h5{
+	font-size: 16px;line-height: 32px;margin: 32px 0 10px 0;padding-left: 16px;
+}
+.message3-left h5 ul{
+	padding-left: 40px;
+}
+.message3-left h5 ul li{
+	list-style: disc;
+}
+.message3-right{
+	height: 480px;width: 555px;padding: 0 15px;float: right;
+	position: relative;left: 100px;top: 0;
+}
+.message3-right img{
+	display: block;height: 480px;width: 351px;margin: 0 auto;
+}
+
+/*产品介绍4*/
+.message4{
+	height: 636px;width: 1140px;padding: 0 15px;margin:auto;
+}
+.message4-top{
+	height: 191px;width: 1110px;padding: 0 15px;margin: 56px 0;
+	position: relative;top: -40px;left: 0;
+}
+.message4-top h2{
+	color: #333;font-size: 30px;border-left: 2px solid #61B623;padding-left: 30px;margin: 120px 0 10px 0;
+}
+.message4-top h5{
+	font-size: 16px;line-height: 32px;margin: 32px 0 10px 0;padding-left: 32px;
+}
+.message4-bottom{
+	height: 333px;width: 1110px;padding: 0 15px;
+	position: relative;top: 40px;left: 0;
+}
+.message4-bottom1{
+	height: 333px;width: 525px;float: left;padding: 0 15px;
+}
+.message4-bottom1 img{
+	display: block;margin: 0 auto;
+}
+@keyframes fadeInLeft {
+	0% {
+		
+		transform: translateX(-60px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+.fadeInLeft{
+	animation:1s running fadeInLeft;
+}
+@keyframes fadeInRight {
+	0% {
+		
+		transform: translateX(50px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+.fadeInRight{
+	animation:1s running fadeInRight;
+}
+@keyframes fadeInDown {
+	0% {
+		
+		transform: translateY(-20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+.fadeInDown{
+	animation:1s running fadeInDown;
+}
+@keyframes fadeInUp {
+	0% {
+		
+		transform: translateY(20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+.fadeInUp{
+	animation:1s running fadeInUp;
+}
+@keyframes fadeIn {
+	0% {
+		
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.fadeIn{
+	animation:1s running fadeIn;
+}

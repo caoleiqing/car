@@ -1,0 +1,119 @@
+/*导航*/
+.navline{
+	height: 99px;width: 100%;background: #fff;border-bottom: 1px solid #CCD1D9;position: fixed;top: 0;left: 0;z-index: 5;
+}
+.navbox{
+	height: 99px;width: 940px;padding: 0 15px;
+}
+.logo{
+	height: 54px;width: 111px;float: left;margin-top: 20px;
+}
+.logo a{
+	display: block;height: 54px;width: 111px;
+}
+.logo a img{
+	height: 54px;width: 111px;
+}
+.container{
+	float: left;margin-top: 40px;height: 59px;
+}
+.container li{
+	float: left;height: 20px;width: auto;margin-left: 80px;padding: 0 14px 37px 14px;
+}
+.container li a{
+	height: 20px;width: auto;color: #AAB2BD;font-size: 16px;
+}
+.container li a:hover{
+	color: #4855A3;
+}
+.active{
+	border-bottom: 2px solid #4855A3;
+}
+.time{
+	float: left;margin-top: 21px;margin-left: 75px;
+}
+.time a{
+	display: block;height: 53px;width: 53px;background: url(../../images/myimg/progress.png) no-repeat -480px -68px;
+}
+
+/*内容*/
+.mainmessage{
+	height: 1716px;width: 100%;padding-top: 120px;
+}
+.problem-list{
+	height: 1706px;width: 100%;margin-bottom: 10px;
+}
+.problem-list li{
+	height: auto;width: 100%;padding: 30px 0 20px 0;border-bottom: 1px solid #E6E9ED;
+}
+.list-center{
+	height: 150px;width: 940px;padding: 0 15px;
+}
+.list-center2{
+	height: 102px;width: 940px;padding: 0 15px;
+}
+.list-center3{
+	height: 126px;width: 940px;padding: 0 15px;
+}
+.list-title{
+	height: 100%;width: 60px;float: left;padding-right: 10px;
+}
+.list-title span{
+	display: block;height: 60px;width: 60px;border-radius: 60px;background: #4855A3;color: #fff;font-size: 32px;text-align: center;line-height: 60px;font-family: Arial;
+}
+.list-title span sub{
+	font-size: 16px;vertical-align: baseline;
+}
+.list-main{
+	height: 100%;width: 870px;padding-top: 12px;float: left;
+}
+.list-main h4{
+	font-size: 28px;color: #242424;margin-top: 0;margin-bottom: 26px;font-weight: normal;
+}
+.list-main p{
+	font-size: 14px;color: #666;margin-top: 0;margin-bottom: 10px;
+}
+#li-2,#li-4,#li-6,#li-8,#li-10{
+	background: #F5F7FA;
+}
+#li-1,#li-3,#li-5,#li-7,#li-7{
+	background: #FFF;
+}
+#li-9 .list-center2 .list-title span{
+	background: #4855A3;
+}
+
+/*底部*/
+.footer{
+	height: 200px;width: 100%;background: #fff;
+}
+.foot-center{
+	height: 100px;width: 940px;padding: 0 15px;padding-top: 50px;
+}
+.foot-nav{
+	height: 40px;width: 550px;float: left;margin-top: 10px;
+}
+.foot-nav li{
+	height: 20px;float: left;margin: 0 35px 0 20px;
+}
+.foot-nav li a{
+	color: #AAB2BD;font-size: 16px;
+}
+.foot-nav li a:hover{
+	text-decoration: underline;
+}
+.foot-right{
+	height: 58px;width: 220px;float: right;
+}
+.foot-right a{
+	display: block;float: left;height: 44px;width: 44px;margin-right: 24px;position: relative;
+}
+.foot-right a img{
+	height: 112px;width: 112px;position: absolute;bottom: 54px;left: -28px;display: none;opacity: 0.2;
+}
+.foot-banquan{
+	height: 20px;width: 100%;padding: 15px 0;background: #4855A3;
+}
+.foot-banquan p{
+	color: #B3B7D4;font-size: 14px;text-align: center;
+}

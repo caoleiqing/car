@@ -1,0 +1,9 @@
+body,div,span,a,b,strong,u,em,i,h1,h2,h3,h4,h5,h6,ul,ol,dl,dt,dd,li,p,pre{
+	margin: 0 auto;padding: 0px;
+}
+a,div,span,li,h1,h2,h3,h4,h5,h6{
+	text-decoration: none;font-family: 微软雅黑;list-style: none;font-weight: normal;
+}
+h1,h2,h3,h4,h5,h6{
+	margin-top: 20px;margin-bottom: 10px;
+}

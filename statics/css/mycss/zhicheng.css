@@ -1,0 +1,169 @@
+
+
+/*banner*/
+.bannerline{
+	height: 559px;width: 100%;border-bottom: 1px solid #CCD1D9;background: url(../../images/myimg/bj.jpg) no-repeat;background-size: cover;margin-top: 99px;overflow: hidden;
+}
+.banner-center{
+	height: 539px;width: 940px;padding: 10px 15px;position: relative;
+}
+.banner-left{
+	height: 623px;width: 1020px;margin-left: -120px;margin-top: 40px;position: absolute;top: 0;left: 0;
+}
+.banner-left img{
+	height: 623px;width: 715px;float: left;
+}
+.download{
+	height: 118px;width: 159px;padding: 10px 0 10px 112px;float: right;margin-top: 350px;background: url(../../images/myimg/download.png) no-repeat;
+}
+.icon-ios{
+	display: inline-block;height: 72px;width: 72px;background: url(../../images/myimg/icon2.png) no-repeat -82px -293px;
+}
+.icon-android{
+	display: inline-block;height: 72px;width: 72px;background: url(../../images/myimg/icon2.png) no-repeat -288px -256px;margin-left: 10px;
+}
+.banner-right{
+	height: auto;width: 435px;margin-top: 20px;position: absolute;top: 0;right: 20px;
+}
+.banner-right img{
+	height: 89px;width: 401px;
+}
+.price{
+	height: 34px;margin-top: 15px;margin-bottom: 10px;
+}
+.price label{
+	color: #705840;font-size: 22px;line-height: 34px;margin-right: 10px;vertical-align: middle;
+}
+.price span{
+	color: #705840;font-size: 24px;line-height: 34px;text-decoration: line-through;margin-left: 24px;vertical-align: middle;
+}
+.newprice{
+	height: 34px;margin-top: 10px;
+}
+.newprice label{
+	color: #705840;font-size: 22px;margin-right: 10px;line-height: 42px;vertical-align: middle;
+}
+.newprice span{
+	color: #F66C00;font-size: 30px;line-height: 42px;font-weight: bold;vertical-align: middle;
+}
+.newprice a{
+	display: inline-block;height: 44px;width: 140px;padding: 0 15px;margin-left: 30px;background: #F66C00;color: #fff;font-size: 22px;text-align: center;border-radius: 8px;line-height: 44px;vertical-align: middle;
+}
+
+/*随心掌控*/
+.index{
+	height: 558px;width: 100%;background: #fff;border-bottom: 1px solid #CCD1D9;padding-top: 1px;
+}
+.center{
+	height: 100%;width: 940px;padding: 1px 15px;
+}
+.center h2{
+	font-size: 40px;margin-top: 20px;margin-bottom: 40px;color: #666;text-align: center;
+}
+.center p{
+	font-size: 16px;margin-bottom: 160px;color: #666;text-align: center;line-height: 30px;
+}
+.row{
+	height: 170px;width: 100%;
+}
+.row1{
+	float: left;height: 170px;width: 16.67%;padding: 0 15px;
+}
+.row1 span{
+	display: block;height: 80px;width: 80px;
+}
+.row1 h3{
+	font-size: 24px;color: #424242;text-align: center;
+}
+.row1 p{
+	font-size: 14px;color: #666;text-align: center;
+}
+
+/*产品说明*/
+.center2{
+	height: 559px;
+}
+.row-left{
+	float: left;height: 100%;width: 50%;
+}
+.row-left img{
+	height: 371px;width: 673px;margin-top: 187px;
+}
+.row-right{
+	float: right;height: 100%;width: 50%;
+}
+.row-right img{
+	height: 500px;width: 606px;float: right;
+}
+
+/*小应用大智能*/
+.center3{
+	height: 509px;width: 940px;padding: 50px 15px 0 15px;
+}
+.center3 h2{
+	font-size: 40px;text-align: center;
+}
+.center3 p{
+	font-size:24px;color: #424242; text-align: center;
+}
+.app-img{
+	height: 391px;width: 940px;text-align: center;
+}
+.app-img img{
+	height: 391px;width: 643px;
+}
+
+/*极致设计*/
+.center4{
+	height: 560px;width: 940px;padding: 0 15px;padding-top: 1px;
+}
+.center4 h2{
+	font-size: 40px;color: #fff;text-align: center;margin-top: 40px;margin-bottom: 40px;
+}
+.center4 p{
+	font-size: 16px;color: #fff;text-align: center;margin-bottom: 160px;
+}
+.row2{
+	float: left;height: 128px;width: 128px;padding: 0 30px;
+}
+.row2 span{
+	display: block;height: 128px;width: 128px;
+}
+
+/*远程开关空调*/
+.center5{
+	height: 559px;width: 940px;padding: 0 15px;position: relative;
+}
+.windbox{
+	height: 240px;width: 536px;position: absolute;right: -19%;top: 57%;overflow: hidden;
+}
+.wind1{
+	height: 76px;width: 172px;background: url(../../images/myimg/wind-arrow.png) no-repeat 0 0;position: absolute;top: 30px;right: 150px;
+}
+.wind2{
+	height: 380px;width: 536px;background: url(../../images/myimg/wind02.png) no-repeat 0 0;margin-left: 32px;
+}
+.overlayer{
+	height: 141px;width: 100%;background: rgba(0, 0, 0, 0.3);position: absolute;bottom: 0;left: 0;
+}
+.overlayer-center{
+	height: 105px;width: 940px;padding: 0 15px;
+}
+.overlayer-center h3{
+	color: #fff;font-size: 36px;text-align: left;
+}
+.overlayer-center p{
+	color: #fff;font-size: 16px;text-align: left;
+}
+
+/*车况异常提醒*/
+.app-apply{
+	height: 289px;width: 422px;padding: 125px 0 0 108px;position: absolute;top: 50%;left: -15px;margin-top: -255px;background: url(../../images/myimg/car-station-app.png) no-repeat center center;
+}
+.screen{
+	height: 314px;width: 219px;background: url(../../images/myimg/screen.png) no-repeat center center;position: absolute;left: 99px;top: 96px;
+}
+.screen img{
+	display: block;margin-top: 20px;margin-left: 8px;
+}
+

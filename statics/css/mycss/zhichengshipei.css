@@ -1,0 +1,149 @@
+body{
+	background: #E6E9ED;
+}
+/*导航*/
+.navline{
+	height: 99px;width: 100%;background: #fff;border-bottom: 1px solid #CCD1D9;position: fixed;top: 0;left: 0;z-index: 5;
+}
+.navbox{
+	height: 99px;width: 940px;padding: 0 15px;
+}
+.logo{
+	height: 54px;width: 111px;float: left;margin-top: 20px;
+}
+.logo a{
+	display: block;height: 54px;width: 111px;
+}
+.logo a img{
+	height: 54px;width: 111px;
+}
+.container{
+	float: left;margin-top: 40px;height: 59px;
+}
+.container li{
+	float: left;height: 20px;width: auto;margin-left: 80px;padding: 0 14px 37px 14px;
+}
+.container li a{
+	height: 20px;width: auto;color: #AAB2BD;font-size: 16px;
+}
+.container li a:hover{
+	color: #4855A3;
+}
+.active{
+	border-bottom: 2px solid #4855A3;
+}
+.time{
+	float: left;margin-top: 21px;margin-left: 75px;
+}
+.time a{
+	display: block;height: 53px;width: 53px;background: url(../../images/myimg/progress.png) no-repeat -480px -68px;
+}
+
+/*主要内容*/
+.main-container{
+	height: 725px;width: 940px;padding: 0 15px;padding-top: 150px;
+}
+.containerbox{
+	height: 693px;width: 970px;margin: 0 -15px;
+}
+.containerbox1{
+	height: 693px;width: 293px;float: left;padding: 0 15px;
+}
+.container1{
+	height: 673px;width: 100%;margin-bottom: 20px;
+}
+.car-logo{
+	height: 155px;width: 100%;background: #4855A3;text-align: center;padding-top: 5px;border-radius: 10px 10px 0px 0px;
+}
+.logo-one{
+	display: block;width: 61px;height: 60px;margin-top: 45px;background: url(../../images/myimg/brand-icon.png) no-repeat 0 center;
+}
+.car-list{
+	height: 472px;width: 231px;padding: 20px 30px;background: #fff;border-width: 0px 1px 1px;border-color: #CCD1D9;border-style: solid;border-radius: 0px 0px 10px 10px;
+}
+.row-top{
+	height: 206px;width: 261px;margin: 0 -15px;
+}
+.row-top-left{
+	height: 206px;width: 99px;padding: 0 15px;border-right: 1px solid #CCD1D9;float: left;
+}
+.row-top-left ul{
+	height: 206px;width: 99px;
+}
+.row-top-left ul li{
+	height: 20px;width: 99px;text-align: center;color: #424242;margin-top: 16px;
+}
+.row-top-right{
+	height: 206px;width: 99px;padding: 0 15px;float: left;
+}
+.row-top-right ul{
+	height: 206px;width: 99px;
+}
+.row-top-right ul li{
+	height: 20px;width: 99px;text-align: center;color: #424242;margin-top: 16px;
+}
+.row-middle{
+	height: 92px;width: 231px;margin-top: 20px;padding-top: 20px;border-top: 1px solid #CCD1D9;
+}
+.row-middle ul{
+	height: 92px;width: 231px;
+}
+.row-middle ul li{
+	height: 20px;width: 231px;text-align: center;color: #424242;margin-top: 16px;
+}
+.row-bottom{
+	height: 92px;width: 231px;margin-top: 20px;padding-top: 20px;border-top: 1px solid #CCD1D9;
+}
+.row-bottom ul{
+	height: 92px;width: 231px;
+}
+.row-bottom ul li{
+	height: 20px;width: 231px;text-align: center;color: #424242;margin-top: 16px;
+}
+.list{
+	height: 92px;width: 231px;
+}
+.list li{
+	height: 20px;width: 231px;text-align: center;color: #424242;margin-top: 16px;
+}
+.logo-three{
+	display: block;width: 61px;height: 60px;margin-top: 45px;background: url(../../images/myimg/brand-icon.png) no-repeat 0 center;
+}
+.main-container p{
+	height: 22px;width: auto;padding-left: 20px;color: #AAB2BD;font-size: 16px;margin: 0 0 10px;
+}
+
+/*底部*/
+.footer{
+	height: 200px;width: 100%;background: #E6E9ED;
+}
+.foot-center{
+	height: 100px;width: 940px;padding: 0 15px;padding-top: 50px;
+}
+.foot-nav{
+	height: 40px;width: 550px;float: left;margin-top: 10px;
+}
+.foot-nav li{
+	height: 20px;float: left;margin: 0 35px 0 20px;
+}
+.foot-nav li a{
+	color: #AAB2BD;font-size: 16px;
+}
+.foot-nav li a:hover{
+	text-decoration: underline;
+}
+.foot-right{
+	height: 58px;width: 220px;float: right;
+}
+.foot-right a{
+	display: block;float: left;height: 44px;width: 44px;margin-right: 24px;position: relative;
+}
+.foot-right a img{
+	height: 112px;width: 112px;position: absolute;bottom: 54px;left: -28px;display: none;opacity: 0.2;
+}
+.foot-banquan{
+	height: 20px;width: 100%;padding: 15px 0;background: #4855A3;
+}
+.foot-banquan p{
+	color: #B3B7D4;font-size: 14px;text-align: center;
+}

@@ -1,0 +1,192 @@
+.about-bg {
+    background: rgba(0, 0, 0, 0) linear-gradient(45deg, #020031 0px, #6d3353 100%) repeat scroll 0 0;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2) inset, 0 -3px 7px rgba(0, 0, 0, 0.2) inset;
+    color: #fff;
+    position: relative;
+    text-align: center;
+}
+.about-bg::after {
+    background: rgba(0, 0, 0, 0) url("../../images/myimg/about/bs-docs-masthead-pattern.png") repeat scroll center center;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    opacity: 0.4;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.carousel-nav {
+    left: 16%;
+    padding-bottom: 0;
+    right: 15%;
+}
+.carousel-nav {
+    color: #fff;
+    height: 100%;
+    padding-top: 30px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    z-index: 10;
+}
+.carousel-nav h1 {
+    color: #fff;
+    font-size: 48px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 0 30px rgba(0, 0, 0, 0.075);
+}
+h1, .h1 {
+    color: #2a5d84;
+}
+.nav-bg-dw {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+.nav-tabs {
+    border-bottom: 0 solid #dde5eb;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color: #fff;
+    border-bottom: 0 solid #dde5eb;
+}
+.nav-tabs > li > a {
+    background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+    border-radius: 4px 4px 0 0;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.42857;
+    margin-right: 2px;
+    margin-top: 30px;
+}
+.nav-tabs > li > a:hover{
+    border-color:#eee #eee #97aec0;
+    color:#555;
+}
+.nav> li > a:hover,.nav> li > a:focus {
+    background-color:#fff;
+    text-decoration: none;
+}
+.about p {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.about h4 {
+    color: #6d9e1c;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.about li {
+    font-size: 15px;
+    line-height: 24px;
+}
+.process-holder::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+.process::after {
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0.03) 0%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0;
+    content: "";
+    z-index: 10;
+}
+.process {
+    color: #505050;
+    padding: 59px 0 49px;
+}
+.process-holder {
+    background-image: url("../../images/myimg/about/bg-process.png");
+    background-position: 50% -44px;
+    background-repeat: repeat-y;
+    margin: 0 auto;
+    padding: 0 0 28px;
+    position: relative;
+}
+.process .section {
+    box-sizing: border-box;
+    clear: both;
+    float: left;
+    margin: -18px 0 0;
+    padding: 0 38px 0 80px;
+    position: relative;
+    text-align: justify;
+    width: 50%;
+}
+.process .section::after, .process-holder::before {
+    background: #0086da none repeat scroll 0 0 padding-box;
+    border: 5px solid #fff;
+    border-radius: 22px;
+    content: "";
+    display: block;
+    height: 19px;
+    padding: 9px;
+    position: absolute;
+    right: -15px;
+    top: 17px;
+    width: 19px;
+}
+.process-holder::before {
+    background-color: #0086da;
+    background-image: url("../../images/myimg/about/ico-smile.png");
+    background-position: 4px 5px;
+    background-repeat: no-repeat;
+    margin: -24px -13px 0 0;
+    right: 50%;
+    top: 100%;
+}
+.process .even::after {
+    left: -13px;
+    right: auto;
+}
+.process .even {
+    float: right;
+    margin: 0 0 0 auto;
+    padding: 0 80px 0 38px;
+}
+.process .num {
+    background: #ee3728 none repeat scroll 0 0;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: normal;
+    height: 60px;
+    left: 0;
+    letter-spacing: 1px;
+    line-height: 60px;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 0;
+    width: 60px;
+}
+.process .even .num {
+    left: auto;
+    right: 0;
+}
+.process .num span {
+    display: block;
+    font: 11px/13px "Avenir LT W01 95 Black",Arial,Helvetica,sans-serif;
+    margin: 0 0 2px;
+}
+.process h3 {
+    border-bottom: 1px dotted #828282;
+    color: #000;
+    font-size: 21px;
+    line-height: 28px;
+    margin: 0 0 7px;
+    padding: 0 0 7px;
+    text-transform: none;
+}
+.process-bg {
+    background-color: #ededeb;
+}
+.honour li {
+    color: #6d9e1c;
+    line-height: 24px;
+}
+.img-center {
+    margin: 15px auto;
+}
