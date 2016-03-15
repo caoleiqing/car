@@ -1,0 +1,63 @@
+<?php defined('IN_PHPCMS') or exit('No permission resources.'); ?><?php include template("content","header11"); ?>
+<link rel="stylesheet" href="<?php echo CSS_PATH;?>mycss/lechengbox.css">
+<script src="<?php echo JS_PATH;?>myjs/lechengbox.js"></script>
+
+<div class="bannerline"><!--banner开始-->
+    <a href="#">
+        <img src="<?php echo IMG_PATH;?>myimg/banner-cn.jpg" alt="banner">
+    </a>
+</div><!--banner结束-->
+<div class="message1"><!--产品信息1开始-->
+    <div class="message1-left">
+        <div class="message1-left-word">
+            <h2>人工美学设计，迸发灵动之美</h2>
+            <h5>自甲骨文时代，就已经有了“美”学之说。<br>乐乘遵循最本质的美学思想，一切从简出发。流畅的形体线条设计，<br>神秘的纯黑酷感立现， 泛光通透的镜面设计与边框巧妙融于一体，<br>细节处尽显精致，气韵生动。</h5>
+        </div>
+    </div>
+    <div class="message1-right">
+        <img src="<?php echo IMG_PATH;?>myimg/box01.jpg" alt="人工美学设计">
+    </div>
+</div><!--产品信息1结束-->
+<hr><!--分割线-->
+<div class="message2"><!--产品信息2开始-->
+    <h2>贴心的呵护，源自隐藏的精密</h2>
+    <img src="<?php echo IMG_PATH;?>myimg/obd02.png" alt="message2">
+</div><!--产品信息2结束-->
+<hr><!--分割线-->
+<div class="message3"><!--产品信息3开始-->
+    <div class="message3-left">
+        <h2>自动检测&nbsp;&nbsp;手动深度检测&nbsp;&nbsp;远程升级</h2>
+        <h5>
+            <ul>
+                <li>车辆行驶中，自动检测各种异常，让您远离各种风险</li>
+                <li>手动深度检测一月一次，全面了解爱车健康</li>
+                <li>上百人的专业团队与您一起完善产品</li>
+                <li>每2~3周升级一次硬件能力和软件能力</li>
+                <li>您买的不仅仅是一款硬件产品</li>
+            </ul>
+        </h5>
+    </div>
+    <div class="message3-right">
+        <img src="<?php echo IMG_PATH;?>myimg/zh.jpg" alt="message3">
+    </div>
+</div><!--产品信息3结束-->
+<hr><!--分割线-->
+<div class="message4"><!--产品信息4开始-->
+    <div class="message4-top">
+        <h2>个性化安装方式，无碍驾驶</h2>
+        <h5>乐乘盒子接线式的安装更具个性化，<br>
+            正如USB一样即插即用，简单方便，并能够适应多种车型的不同OBD接口。<br>
+            避免因为直插式安装产生的关不上OBD仓盖、容易脱落、影响驾驶安全等问题。
+        </h5>
+    </div>
+    <div class="message4-bottom">
+        <div class="message4-bottom1">
+            <img src="<?php echo IMG_PATH;?>myimg/yq01.png" alt="message41">
+        </div>
+        <div class="message4-bottom1">
+            <img src="<?php echo IMG_PATH;?>myimg/yq02.png" alt="message42">
+        </div>
+    </div>
+</div><!--产品信息4结束-->
+
+<?php include template("content","footer11"); ?>

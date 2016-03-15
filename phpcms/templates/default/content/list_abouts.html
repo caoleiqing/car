@@ -1,0 +1,54 @@
+{template "content","header"}
+<link rel="stylesheet" href="{CSS_PATH}mycss/about.css">
+<div class="carousel-inner about-bg" role="listbox">
+    <div class="item active">
+        <img src="{IMG_PATH}myimg/about/about.png">
+        <div class="carousel-nav">
+            <h1 class="pull-left">{$catname}</h1>
+            <div class="nav nav-tabs pull-right nav-bg-dw" role="tablist">
+
+                {pc:content action="category" catid="13" num="25" siteid="$siteid" order="listorder ASC"}
+                {loop $data $r}
+                <li  role="presentation" {if $catid==$r[catid]} class="active" {/if}>
+                    <a href="{$r[url]}">{$r[catname]}</a>
+                </li>
+                {/loop}
+                {/pc}
+            </div>
+        </div>
+    </div>
+</div>
+{if $catid==29 || $catid==30 || $catid==31 || $catid==32}
+<div class="container">
+    <div class="col-md-10 col-md-offset-1">
+        <div class="row t-2">
+            <div class="col-lg-12 about">
+                {pc:content action="lists" moreinfo="1" catid="$catid" num="25" siteid="$siteid" order="listorder ASC"}
+                {loop $data $v}
+                {if $catid==29 || $catid==30|| $catid==32}
+                <h3 class="text-center">{$v[title]}</h3>
+                <hr>
+                {/if}
+                {$v[content]}
+                {/loop}
+                {/pc}
+            </div>
+        </div>
+    </div>
+</div>
+{elseif $catid==33}
+<div class="container">
+    <div class="col-md-10 col-md-offset-1">
+        <div class="row t-3">
+            <div class="col-lg-12">
+                {pc:content action="lists" moreinfo="1" catid="$catid" num="25" siteid="$siteid" order="listorder ASC"}
+                {loop $data $v}
+                {$v[content]}
+                {/loop}
+                {/pc}
+            </div>
+        </div>
+    </div>
+</div>
+{/if}
+{template "content","footer"}

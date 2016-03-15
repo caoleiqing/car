@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+    <link type="image/png" href="{IMG_PATH}myimg/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="{CSS_PATH}mycss/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="{CSS_PATH}mycss/index.css">
+    <script src="{JS_PATH}myjs/jquery-1.12.1.js"></script>
+    <script src="{JS_PATH}myjs/bootstrap/js/bootstrap.js"></script>
+    <script src="{JS_PATH}myjs/index.js"></script>
+</head>
+<body>
+<!-- 顶部导航开始 -->
+<div class="box">
+    <nav class="navbar navbar-default" role="navigation"><!--如果你在使用导航组件实现导航条功能，务必在 <ul> 的最外侧的逻辑父元素上添加 role="navigation" 属性，或者用一个 <nav> 元素包裹整个导航组件。不要将 role 属性添加到 <ul> 上，因为这样可以被辅助设备（残疾人用的）上被识别为一个真正的列表。-->
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">
+                    <img src="{IMG_PATH}myimg/index/logo.png" alt="">
+                </a>
+            </div>
+            <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li {if !$catid} class="active" {/if}><a href="{siteurl($siteid)}">首  &nbsp;页</a></li>
+                    {pc:content action="category" catid="0" num="5" siteid="$siteid" order="listorder ASC"}
+                    {loop $data $r}
+                    {if $r[catid]==9}
+                    <li class="dropdown {if $r[catid]==$CATEGORYS[$top_parentid][catid]}active{/if}">
+                        <a class="dropdown-toggle" href="#">{$r[catname]}</a>
+                        <ul class="dropdown-menu" role="menu">
+                            {pc:content action="category" catid="$r[catid]" num="9" siteid="$siteid" order="listorder ASC"}
+                            {loop $data $q}<!--子栏目循环开始-->
+                            <li><b>{$q[catname]}</b></li>
+                            <li class="divider"></li>
+                            {pc:content action="category" catid="$q[catid]" num="3" siteid="$siteid" order="listorder ASC"}
+                            {loop $data $w}<!--子栏目循环开始-->
+                            <li><a target="_blank" href="{$w[url]}">{$w[catname]}</a></li>
+                            {/loop}<!--子栏目循环结束-->
+                            {/pc}
+                            {/loop}<!--子栏目循环结束-->
+                            {/pc}
+                        </ul>
+                    </li>
+                    {elseif $r[catid]==12}
+                    <li><a target="_blank" href="{$r[url]}">{$r[catname]}</a></li>
+                    {else}
+                    <li class="dropdown {if $r[catid]==$CATEGORYS[$top_parentid][catid]}active{/if}">
+                        <a href="#" class="dropdown-toggle">{$r[catname]}</a>
+                    <ul class="dropdown-menu" role="menu">
+                        {pc:content action="category" catid="$r[catid]" num=15" siteid="$siteid" order="listorder ASC"}
+                        {loop $data $v}<!--子栏目循环开始-->
+                        <li><a href="{$v[url]}">{$v[catname]}</a></li>
+                        {/loop}<!--子栏目循环结束-->
+                        {/pc}
+                    </ul>
+                    {/if}
+                    </li>
+                    {/loop}
+                    {/pc}
+                </ul>
+                <div id="nav-menu" class="btn-group pull-right wzdh">
+                    <a class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown" type="button" id="nav-menuclq">网站导航
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a target="_blank" href="{APP_PATH}index.php">车网互联官网</a></li>
+                        <li><a target="_blank" href="{APP_PATH}?m=content&c=index&a=lists&catid=17">乐乘</a></li>
+                        <li><a target="_blank" href="{APP_PATH}?m=content&c=index&a=lists&catid=18">智乘（即将发布）</a></li>
+                        <li><a target="_blank" href="{APP_PATH}?m=content&c=index&a=lists&catid=19">纷乘</a></li>
+                        <li class="menu01"><a target="_blank" href="#">车店通</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- 顶部导航结束 -->

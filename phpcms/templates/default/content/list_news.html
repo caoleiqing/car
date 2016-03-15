@@ -1,0 +1,56 @@
+{template "content","header"}
+<link rel="stylesheet" href="{CSS_PATH}mycss/about.css">
+<link rel="stylesheet" href="{CSS_PATH}mycss/news.css">
+<div class="carousel-inner" role="listbox">
+    <div class="item active">
+        <img src="{IMG_PATH}myimg/news/newsbg.jpg">
+        <div class="carousel-nav">
+
+
+            <h1 class="pull-left">{$catname}</h1>
+            <div class="nav nav-tabs pull-right nav-bg-dw" role="tablist">
+                {pc:content action="category" catid="11" num="25" siteid="$siteid" order="listorder ASC"}
+                {loop $data $r}
+                <li {if $catid==$r[catid]} class="active" {/if} role="presentation">
+                    <a href="{$r[url]}">{$r[catname]}</a>
+                </li>
+                {/loop}
+                {/pc}
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="col-md-10 col-md-offset-1">
+        <div class="row t-3">
+            <div class="col-lg-12">
+                <div class="bs-example">
+                    {pc:content action="lists" catid="$catid" num="4" siteid="$siteid" order="listorder ASC" page="$page"}
+                    <ul class="media-list">
+                        {loop $data $v}
+                        <li class="media">
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    <a target="_blank" href="{$v[url]}" >{$v[title]}</a>
+                                </h4>
+                                <p> ……</p>
+                                <h4>
+                                    <small>
+                                        <i class="glyphicon glyphicon-calendar"></i>
+                                        {date('Y-m-d H:i:s',$v[inputtime])}
+                                    </small>
+                                </h4>
+                            </div>
+                        </li>
+                        <hr>
+                        {/loop}
+                    </ul>
+                    {$pages_new}
+                    {/pc}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{template "content","footer"}

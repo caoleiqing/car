@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>智乘</title>
+	<link type="image/png" href="{IMG_PATH}myimg/favicon.ico" rel="icon">
+	<link rel="stylesheet" href="{CSS_PATH}mycss/div.css">
+	<link rel="stylesheet" href="{CSS_PATH}mycss/both2.css">
+	<script src="{JS_PATH}myjs/jquery-1.12.1.js"></script>
+</head>
+<body>
+	<div class="navline"><!--导航开始-->
+		<div class="navbox">
+			<div class="logo">
+				<a href="#">
+					<img src="{IMG_PATH}myimg/logo4.png" alt="logo">
+				</a>
+			</div>
+			{pc:content action="category" catid="18" num="25" siteid="$siteid" order="listorder ASC"}
+			<ul class="container">
+				<li  {if $catid=="18"} id='active'{/if}><a href="{APP_PATH}index.php?m=content&c=index&a=lists&catid=18">首页</a></li>
+				{loop $data $r}
+				<li {if $catid==$r[catid] || $top_parentid==$r[catid]} id='active'{/if}><a href="{$r[url]}">{$r[catname]}</a></li>
+				{/loop}
+			</ul>
+			{/pc}
+			<div class="time">
+				<a href="#"></a>
+			</div>
+		</div>
+	</div><!--导航结束-->
